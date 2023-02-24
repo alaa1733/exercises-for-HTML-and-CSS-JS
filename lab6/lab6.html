@@ -1,0 +1,42 @@
+
+<!--
+    Name: Alaa Mohammed
+    G: 3
+
+-->
+
+<!DOCTYPE html>
+<html>
+<body>
+    <form>
+<label for="Choose">Choose a city:</label>
+<select id="city" onchange="cirtDesc()">
+  <option value="Mecca">Mecca</option>
+  <option value="Riyadh">Riyadh</option>
+  <option value="Khobar">Khobar</option>
+  <option value="Jeddah">Jeddah</option>
+</select>
+</form>
+
+
+<script>
+function cirtDesc() {
+ var x = document.getElementById("city").value;
+  
+  if(x=="Mecca")
+  alert(" Mecca is birthplace of Islamic prophet Muhammad and it is the most beautiful city in the world :)");
+   
+  if(x=="Riyadh")
+  alert(" Riyadh is a capital city of  Saudi Arabia ");
+  	
+  if(x=="Khobar")
+  alert(" Khobar has largest water front area ");
+  
+  if(x=="Jeddah")
+  alert(" Jeddah is Road side city");
+  	
+}
+</script>
+
+</body>
+</html>

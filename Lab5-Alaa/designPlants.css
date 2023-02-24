@@ -1,0 +1,34 @@
+
+.change{
+color: white;
+background-color: rgb(104, 155, 103);
+}
+
+
+
+a:hover{
+    color:red;
+}
+
+p::first-letter{
+    color: rgb(49, 104, 49);
+    font-size: x-large;
+}
+
+body{
+    background-image: url("image.jpg");
+    background-attachment: fixed;
+}
+
+img  { /*.best10*/
+    border: 5px dotted  rgb(90, 168, 90); 
+    padding: 3px;
+    background-color: rgb(46, 73, 46);
+    margin-top: 25px;
+    cursor:pointer;
+    float: left;
+      
+}
+li{
+    list-style-type: upper-alpha;
+}
